@@ -1,0 +1,61 @@
+p {
+  color: white;
+  line-height: 18px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 200;
+  font-size: 14px;
+
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  -webkit-animation: myanim2 1s 0.4s backwards;
+  animation: myanim2 1s 0.4s backwards;
+}
+.about {
+  padding-top: 16vh;
+  .paragraphs {
+    width: 40vw;
+  }
+}
+.bruh {
+  color: #934a5f;
+  padding-bottom: 20px;
+}
+p .sup:hover {
+  animation-name: bouncy;
+}
+.fade-enter {
+  opacity: 0;
+  transform: rotateX(90deg) rotateY(90deg);
+}
+.fade-enter-active {
+  opacity: 1;
+  transform: rotateX(0deg) rotateY(0deg);
+  transition: 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275) all;
+}
+
+@media screen and (max-width: 960px) {
+  p {
+    font-size: 13px;
+    line-height: 15px;
+  }
+  .about {
+    .paragraphs {
+      width: 70vw !important;
+    }
+    padding-bottom: 10vh;
+  }
+  .bruh {
+    padding-bottom: 20px;
+  }
+}
+@media only screen and (max-width: 1250px) {
+  .about {
+    .paragraphs {
+      width: 50vw;
+    }
+    padding-bottom: 10vh;
+  }
+}

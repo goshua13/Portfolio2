@@ -1,0 +1,209 @@
+.flat-button {
+    color: #F6C026;
+    font-size: 11px;
+    letter-spacing: 4px;
+    font-family: "Open Sans", sans-serif;
+    padding: 8px 12px;
+    border: 1px solid #F6C026;
+    margin-top: 10px;
+    border-radius: 3px;
+    -webkit-animation: myanim2 1s .5s backwards;
+    animation: myanim2 1s .5s backwards;
+  }
+
+.flat-button {
+    white-space: nowrap;
+  }
+  button{
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    background-color: transparent;
+  }
+  button:hover{
+    text-decoration-color: #252626;
+    cursor: pointer;
+    background: #934A5F;
+    color:#252627;
+  }
+
+h1{
+  color: white;
+  font-family: Marker Felt;
+  font-size: 60px;
+  line-height: 53px;
+  -webkit-animation: myanim2 1s .3s backwards;
+  animation: myanim2 1s .3s backwards;
+}
+
+.sup{
+  display: inline-block;
+  transition: all .3s ease-out;
+  animation-duration: 1s;
+  animation-fill-mode: both;
+  animation-iteration-count: 1;
+}
+.sup:hover{
+  color: #F6C026;
+  animation-name: bouncy;
+}
+h2 {
+  color: #8d8d8d;
+  margin-top: 9px;
+  font-weight: normal;
+  font-size: 11px;
+  font-family: "Open Sans", sans-serif;
+  letter-spacing: 3px;
+  -webkit-animation: myanim2 1s .4s backwards;
+  animation: myanim2 1s .4s backwards;
+}
+.mainstuff .flat-button {
+  color: #F6C026;
+  font-size: 11px;
+  letter-spacing: 4px;
+  font-family: "Open Sans", sans-serif;
+  text-decoration: none;
+  text-decoration-line: none;
+  text-decoration-style: initial;
+  text-decoration-color: initial;
+  padding: 8px 12px;
+  border: 1px solid #F6C026;
+  margin-top: 10px;
+  float: left;
+  border-radius: 3px;
+  -webkit-animation: myanim2 1s .5s backwards;
+  animation: myanim2 1s .5s backwards;
+}
+.flat-button {
+  white-space: nowrap;
+}
+button{
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  background-color: transparent;
+}
+button:hover{
+  text-decoration-color: #252626;
+  cursor: pointer;
+  background: #934A5F;
+  color:#252627;
+}
+
+
+@keyframes bouncy {
+  from {
+    transform: scale3d(1, 1, 1);
+  }
+
+  30% {
+    transform: scale3d(1.25, 0.75, 1);
+  }
+
+  40% {
+    transform: scale3d(0.75, 1.25, 1);
+  }
+
+  50% {
+    transform: scale3d(1.15, 0.85, 1);
+  }
+
+  65% {
+    transform: scale3d(.95, 1.05, 1);
+  }
+
+  75% {
+    transform: scale3d(1.05, .95, 1);
+  }
+
+  to {
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+.bouncy {
+  -webkit-animation-name: bouncy;
+  animation-name: bouncy;
+}
+
+
+@media (max-width: 530px){
+  body {
+      padding-bottom: 50px; 
+      height: 100%;
+  }
+   .bottom-tags {
+      display: none;
+    
+  }
+}
+
+@media (max-width: 1350px){
+  
+  .tags {
+      margin-left:9vw;
+      left:0;
+  }
+  .container {
+    padding-left: 10vw;
+  }
+  .top-tags {
+      bottom: auto;
+      top: 30px;
+  }
+  .bottom-tags {
+   position: absolute;
+   clear:both;
+   float:left;
+   margin-top: 10px;
+   bottom:0
+   }
+  body {
+      overflow: auto;
+   }
+
+}
+
+
+@keyframes myanim {
+  0%   {
+      top:-2000px;
+      left:-400px;
+      opacity: 0
+  }
+  100% {opacity: 1;}
+
+}
+
+@-webkit-keyframes myanim {
+  0%   {
+      top:-2000px;
+      left:-400px;
+      opacity: 0
+  }
+  100% {opacity: 1;}
+
+}
+
+
+@keyframes myanim2 {
+  0%   { opacity: 0;}
+  100% {opacity: 1;}
+
+}
+@-webkit-keyframes myanim2 {
+  0%   { opacity: 0;  }
+  100% {opacity: 1;}
+
+}
+
+@keyframes myanim3 {
+  0%   { opacity: 0; top:-20px;}
+  100% {opacity: 1;}
+
+}
+@-webkit-keyframes myanim3 {
+  0%   { opacity: 0; top:-20px; }
+  100% {opacity: 1;}
+
+}
+
+
