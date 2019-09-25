@@ -1,0 +1,20 @@
+{
+  "short_name": "The Brogrammer",
+  "name": "The Brogrammers portfolio",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "theme_color": "#8a9597",
+  "background_color": "#8a9597",
+  "description": "A simple portfolio, implementing a lot of PWA in my portfolio.",
+  "dir": "ltr",
+  "lang": "en-US"
+  
+}
