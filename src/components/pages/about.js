@@ -34,7 +34,7 @@ const About = () => {
 
         <div className="paragraphs">
           <p className="bounce">
-            Hi, I'm a Web developer and I am a Front-end developer who uses 
+            Hi, I'm a Front-end developer who uses 
             HTML, CSS and Several Javascript libraries to create modern websites. 
             I also use React-Native to build hybrid applications.
           </p>
