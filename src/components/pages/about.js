@@ -12,9 +12,7 @@ const About = () => {
       target.classList.remove("grow");
     };
     text.forEach(sentence => {
-      const sentences = sentence.innerHTML.split(' ').map(word => {
-        return word.replace(`${word}`, `<span>${word}</span>`)
-      }).join(' ')
+      const sentences = sentence.innerHTML.split(' ').map(word => word.replace(`${word}`, `<span>${word}</span>`)).join(' ')
       sentence.innerHTML = sentences
     })
   
@@ -55,7 +53,10 @@ const About = () => {
         2019 - I worked as an Intern at BlueRnd and worked on several applications from scratch. We used a lot of React with Redux and Cordova to make applications that allowed us to have the same code base for IOS, Android, and Web.
           </p>
           <p className="bounce">
-           2019 (Present) - I Worked as a Front-end developer at UVU leading front-end projects with clients and performing QA on products with userbases measured in the thousands.
+           2019 - I Worked as a Front-end developer at UVU leading front-end projects with clients and performing QA on products with userbases measured in the thousands.
+          </p>
+          <p className="bounce">
+           2019 - (present) As a Software developer for Bellalash I worked on creating an LMS known as Skillsuite from the ground up.
           </p>
           <p className="bounce">
             Extra - I am a skilled communicator with fellow developers and non-technical clients alike. I live in Utah and I am fluent in Spanish and intermediate in French.

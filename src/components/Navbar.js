@@ -1,6 +1,7 @@
-import React, { useEffect } from "react";
-import { Link } from "react-router-dom";
+/** @format */
 
+import React, { useEffect } from "react";
+import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
   return (
@@ -13,24 +14,18 @@ const Navbar = () => {
 
       <nav>
         <div className="link">
-          <Link to="/Portfolio2">
+          <NavLink to="/Portfolio2">
             <i className="home icon" />
-          </Link>
-        </div>
-        <div>
-          <Link to="/about">
+          </NavLink>
+          <NavLink to="/about">
             <i className="user icon" />
-          </Link>
-        </div>
-        <div>
-          <Link to="/skills">
+          </NavLink>
+          <NavLink to="/skills">
             <i className="eye icon" />
-          </Link>
-        </div>
-        <div>
-          <Link to="/work">
+          </NavLink>
+          <NavLink to="/work">
             <i className="cog icon" />
-          </Link>
+          </NavLink>
         </div>
       </nav>
       <ul className="social-media">
@@ -43,7 +38,10 @@ const Navbar = () => {
           </a>
         </li>
         <li>
-          <a href="https://www.instagram.com/the.brogrammer/?hl=en" target="_blank">
+          <a
+            href="https://www.instagram.com/the.brogrammer/?hl=en"
+            target="_blank"
+          >
             <i className="instagram icon" />
           </a>
         </li>

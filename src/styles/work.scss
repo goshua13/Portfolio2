@@ -38,6 +38,8 @@ h3 {
   transform: translate(-50%, -50%);
 }
 .text {
+  width: 100%;
+  max-width: 100%;
   z-index: 2;
   color: white;
   position: absolute;

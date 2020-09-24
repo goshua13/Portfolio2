@@ -8,7 +8,7 @@
     min-height: 500px;
     padding: 0;
 }
-.navbar nav{
+.navbar nav {
     margin-left: 0;
     cursor: pointer;
     display: block;
@@ -60,7 +60,7 @@
 .navbar nav a:first-child:after {
     content: 'HOME';
 }
-.navbar nav a:first-child + a:after {
+.navbar nav a:first-child ~ a:after {
     content: 'ABOUT';
 }
 .navbar nav a:first-child + a +  a:after {
